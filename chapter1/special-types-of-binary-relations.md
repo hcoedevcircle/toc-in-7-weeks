@@ -19,3 +19,7 @@ Suppose `A = {a,b,c,d}`
 and let us suppose an arbitary relation `R = {(a,b),(b,a),(a,d),(d,c),(c,c),(c,a)}`
 
 Now, we put an small circle for each element in A. The circles are called nodes.  After drawing the nodes, we then join the two nodes (if in R) by the use of arrows. The arrows are called edges. A node can also correspond to itself, `as in (c,c)` We also use arrows in that case. From one node to another,  there is either no edge (or arrows) or there is one edge. Parallel arrows are not allowed.
+
+
+
+![Directed-Graph](http://imgur.com/qkZFt28.jpg?1 "Directed Graph")
