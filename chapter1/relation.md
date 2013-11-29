@@ -32,5 +32,26 @@ Any two ordered pairs `(a,b) and (c,d)` are considered equal if and only if `a =
 -------------------
 
 
-### Cartesian Product. 
+### Cartesian Product
+
+We can define Cartesian Product of two sets *A* and *B* denoted by `A × B` is the set of all ordered pairs `(a,b)` with `a ∈ A` and `b ∈ B` . 
+
+An example.
+
+Consider sets, `A = {2,4} and B = {b, i, n}` Now,
+
+`A × B = {(2,b), (2,i), (2,n), (4,b), (4,i), (4,n)}`
+
+[Note: You can write the sets in any order. for example. writing `A ={4,2}` does not affect the result] 
+And `B × A  <> A × B`
+
+### Relations
+
+Now, we can better define relation on two sets. As in the previous example, A binary relation on two sets A and B is a subset of `A × B`. To be more clear, only the subsets of `A × B` can be realted through a binary relation. For example: `{(2,b),(4,b)}` is a binary relation on `{2,4} × {b,i,n}`. 
+
+For a more clear example, consider a set of natural numbers `N`, now `{(i,j): i ∈ N, j ∈ N, i < j }` is a typical less than relation, which is a subset of `N × N`
+
+### Generalizing Ordered Pairs
+
+
 
