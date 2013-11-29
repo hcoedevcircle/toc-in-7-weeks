@@ -5,10 +5,9 @@ Theory of Computing: A 3rd semester course, taught in Tribhuwan University, Nepa
 
 Completed
 ----
-
-### Chapter 1: 
-#### Set
-#### Relations and Functions
+### Chapter 1 (Sets, relations, and languages)
+1. Set
+2. Relation and Function (half)
 
 
 Book Followed
