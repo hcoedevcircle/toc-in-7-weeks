@@ -3,11 +3,17 @@ toc-in-7-weeks
 
 Theory of Computing: A 3rd semester course, taught in Tribhuwan University, Nepal
 
-Completed
+Work in Progress
 ----
 ### Chapter 1 (Sets, relations, and languages)
-1. Set
-2. Relation and Function (half)
+- [x] Set
+- [x] Relation and Function (half)
+- [ ] Special Types of Binary Relations 
+- [ ] Finite and Infinite Sets
+- [ ] Three Fundamental Proof Techniques
+- [ ] Closures and Algorithms
+- [ ] Alphabets and Languages
+- [ ] Finite Representation of Languages
 
 
 Book Followed
