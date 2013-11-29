@@ -83,7 +83,7 @@ We can also name  the tuples like:
 <dl>
 <dt> Sequence </dt>
 <dd>
-A Sequence is an ordered n-tuple for some unspecified *n* (the length of sequence). 
+A Sequence is an ordered n-tuple for some unspecified <em>n</em> (the length of sequence). 
 </dd>
 </dl>
 
@@ -96,3 +96,9 @@ As Ordered pairs had binary relations, Ordered-n tuples has n-ary relations.
 
 ### Functions
 
+Simply said, a function is an association of each object of one kind with a unique object of another kind. It is a special kind of relation.  We can give a complex and concrete definition of functions using our knowledge of binary relation. 
+
+<dl>
+<dt> Function </dt>
+<dd> A <strong>function</strong> from a set A to set B is a binary relation R on A and B with the following special property: fore each element <code>a ∈ A</code>, there is <em>exactly one</em> ordered pair in R with the first component <code>a</code> </dd>
+</dl>
