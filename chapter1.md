@@ -41,7 +41,7 @@ Consider a parent set, `P = {x:x∈N}` (a set of all natural numbers)
 
 and another set, `C = {x:x∈P, x is even number}`  (a set whose elements belong to P, and is even) 
 
-Here set C is made by elements of set P, so C is a subset of P, denoted by `C ⊆ B`
+Here set C is made by elements of set P, so C is a subset of P, denoted by `C ⊆ P`
 
 Technically, the set itself is a subject of it. i.e, P is a subset of P.
 
@@ -51,4 +51,39 @@ Except P, all the other subsets of P are known as `proper subset` or `strict sub
 
 There are different operations on sets, mainly `Union`, `Intersection` and `Difference`
 
+1. Union : A Union of two sets is a set which conatins all the element of both sets. For example. Consider sets `A = {1, 2, 3}, and B={3, 4, 5}`. Now `A ∪ B` is `{1,2,3,3,4,5}` and since repetation does not mean anything on sets, we can rewrite the result as `{1,2,3,4,5}`.
+2. Intersection: A Intersection of two sets gives the common elements of two sets. For example. On the previous example, we have a common element: `{3}` which is called the intersection of two sets. It is denoted by `∩`. 
+3. Difference: Difference of two sets `A` and `B` is defined as set of all elements of A that are not elements of B. and denoted by `A-B`
 
+
+#### Properties of Sets
+
+Set follow Idempotency, Commutativity, Associativity, Distributivity, Absportion, and De-Morgan laws. More of this on the appendix.
+
+
+### Multiple Union and Intersection
+
+Union of set can also be defined on more than two sets. Let us consider a set, `A = {{a,b,c}, {c,d,e}, {e,f,g}}` which is a set of different Sets. Now the union of sets that are elements of set A is defined as: `∪ A = {a,b,c,d,e,f,g}`. Similar rule is followed by the intersection
+
+### Overlapping and Disjoint sets
+
+As the name says, if a number of sets have something in common, they are called overlapping sets, and the vice versa is disjoint.
+
+### Power Set
+
+The collection of all subjects of set A is called `power set`. And is denoted by 2<sup>A</sup>. For example. Consider a set, `A = {c,d}`.. Now `2`<sup>`A`</sup>` = {{c,d}, {c}, {d}, Ø}`
+
+### Partition
+
+A partition of a non empty set A is a subset C of 2<sup>A</sup> such that Ø is not an element of C and each element of A is in one and only one set in C. To summarize,
+- each element of C is nonempty
+- distinct members of C are disjoint.
+- ∪ C = A
+
+
+
+    
+    
+    
+    
+    
