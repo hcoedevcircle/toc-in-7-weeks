@@ -7,7 +7,7 @@ Work in Progress
 ----
 ### Chapter 1 (Sets, relations, and languages)
 - [x] Set
-- [x] Relation and Function (half)
+- [x] Relation and Function
 - [ ] Special Types of Binary Relations 
 - [ ] Finite and Infinite Sets
 - [ ] Three Fundamental Proof Techniques
