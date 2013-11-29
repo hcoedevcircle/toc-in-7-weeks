@@ -43,6 +43,7 @@ Consider sets, `A = {2,4} and B = {b, i, n}` Now,
 `A × B = {(2,b), (2,i), (2,n), (4,b), (4,i), (4,n)}`
 
 [Note: You can write the sets in any order. for example. writing `A ={4,2}` does not affect the result] 
+
 And `B × A  <> A × B`
 
 ### Relations
@@ -53,5 +54,7 @@ For a more clear example, consider a set of natural numbers `N`, now `{(i,j): i 
 
 ### Generalizing Ordered Pairs
 
+We introduced ordered pair as a pair of two objects `a` and `b` denoted by `(a,b)`. Generalizing the concept, let us assume, `n` as any natural number. Then if <code>a<sub>1</sub>,...,a<sub>n</sub></code> are any *n* objects (not necessarily distinct), then <code>(a<sub>1</sub>,...,a<sub>n</sub>)</code> is an ordered tuple.  
 
+As we took the cartesian product of two sets to obtain an ordered pair. We can take n-fold Cartesian product <code>A<sub>1</sub>×...×A<sub>n</sub></code> to obtain an Ordered-n tuple <code>(a<sub>1</sub>,...,a<sub>n</sub>)</code>
 
