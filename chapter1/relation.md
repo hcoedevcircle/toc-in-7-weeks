@@ -118,4 +118,7 @@ What happens in R<sub>1</sub> is you cannot have any other pair with its `x = Ka
 
 #### Domain, Range, and Function Notations
 
-Generally, the letters `f`, `g`, `h` are used for functions and we write  f : A -> B to indicate that a function f is a function from A to B. A is called the domain. If x is any element of domain, then we write f(x) for the unique element in B that the function corresponds to. f(x) denotes and unique objec, which is called the **image of *a* under f**
+Generally, the letters `f`, `g`, `h` are used for functions and we write  `f : A -> B` to indicate that a function f is a function from A to B. A is called the *domain*. If `x` is any element of domain, then we write `f(x)` for the unique element in B that the function corresponds to. `f(x)` denotes and unique object, which is called the **image of *a* under f** . The *range*  of a function  `f` is the *image* of its *domain*.
+
+**Self Study parts: One-to-One, One-to-Many, Into, Onto, Bijection, Inverse**
+**Book: Page Number 11-12 gives a clear understanding**
