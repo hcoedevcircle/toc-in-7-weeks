@@ -19,12 +19,9 @@ Work in Progress
 Book Followed
 ----
 
-`Elements of The Theory of Computation` by Harry R. Lewis and Christos H, Papadimitriou  
-|| Second Edition ||
+`Elements of The Theory of Computation` 2<sup>nd</sup> Edition.  by `Harry R. Lewis` and `Christos H, Papadimitriou`  
 
-(Indian Reprint -- Rs. 250.00)
-
-(Original U.S. Edition -- Rs. 2616.00)
+Indian Reprint
 
 ------------------
 ISBN-81-203-2233-9
