@@ -102,3 +102,15 @@ Simply said, a function is an association of each object of one kind with a uniq
 <dt> Function </dt>
 <dd> A <strong>function</strong> from a set A to set B is a binary relation R on A and B with the following special property: fore each element <code>a ∈ A</code>, there is <em>exactly one</em> ordered pair in R with the first component <code>a</code> </dd>
 </dl>
+
+For an example, let us consider a set Zn which is a set of Zones in Nepal and D which is a set of Districts ina specific zone. Now let us considers two relations as in:
+
+<code>R<sub>1</sub> =  {(x,y): x D , y Zn, x is a district in zone y }</code>
+
+<code>R<sub>2</sub> =  {(x,y): x Zn , y D, y is a district in zone x }</code>
+
+Now, R<sub>1</sub> is a function since each district is in one and only one zone. For example, Kathmandu is only in Bagmati Zone. Some ordered pairs for R<sub>1</sub> are: `{(Kathmandu, Bagmati), (Lalitpur, Bagmati), (Banke, Bheri)}`
+
+But R<sub>2</sub> is not be a function since  zones have more than one district. Some ordered pair for R<sub>2 is like `{(Bagmati, Kathmandu), (Bagmati, Lalitpur), (Bheri, Banke)}`
+
+What happens in R<sub>1</sub> is you cannot have any other pair with its `x = Kathmandu` . But in R<sub>2</sub> you can have multiple ordered pairs with `x = Bagmati`. Therefore R<sub>1</sub> is a function but R<sub>2</sub> is not a function. 
