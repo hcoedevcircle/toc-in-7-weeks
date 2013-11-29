@@ -1,4 +1,4 @@
 toc-in-7-weeks
 ==============
 
-Inspired by x things in x days.. :)
+Theory of Computing: A 3rd semester course, taught in Tribhuwan University, Nepal
