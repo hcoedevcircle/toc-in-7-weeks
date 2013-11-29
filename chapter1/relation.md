@@ -58,6 +58,7 @@ We introduced ordered pair as a pair of two objects `a` and `b` denoted by `(a,b
 
 As we took the cartesian product of two sets to obtain an ordered pair. We can take n-fold Cartesian product <code>A<sub>1</sub>×...×A<sub>n</sub></code> to obtain an Ordered-n tuple <code>(a<sub>1</sub>,...,a<sub>n</sub>)</code>
 
+#### Equality of ordered tuples
 As any two ordered pairs `(a,b) and (c,d)` are considered equal if and only if `a = c and b = d`. There exists a similar relation on ordered tuples..
 
 Consider an ordered-n tuple <code>(a<sub>1</sub>,...,a<sub>n</sub>)</code>.
@@ -67,5 +68,31 @@ let us consider for each i = 1....n , a<sub>i</sub> represents the element of fi
 and for each j = 1.....m ,  b<sub>j</sub> represents the element of second (ordered-m) tuple
 
 Now, Those two tuples are equal if and only if
-- `m = n` , and 
--  a<sub>i = b<sub>i
+- `m = n`  (which automatically means `i = j`), and
+-  <code>a<sub>i</sub> = b<sub>i</code> for all `i = 1......n` 
+
+
+We can also name  the tuples like:
++ Ordered 2-tuples > Ordered Pairs
++ Ordered 3-tuples > Ordered Triples
++ Ordered 4-tuples > Ordered Quadruples
++ Ordered 5-tuples > Ordered Quintuples
++ Ordered 6-tuples > Ordered Sextuples
+
+
+<dl>
+<dt> Sequence </dt>
+<dd>
+A Sequence is an ordered n-tuple for some unspecified *n* (the length of sequence). 
+</dd>
+</dl>
+
+
+#### Relations of Ordered Tuples
+
+As Ordered pairs had binary relations, Ordered-n tuples has n-ary relations.  
+
+--------
+
+### Functions
+
