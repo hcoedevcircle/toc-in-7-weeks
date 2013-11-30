@@ -54,6 +54,34 @@ A binary relation R is **transitive** if whenever `(a, b) ∈ R` and `(b, c) ∈
 [[Figure 1-5]]
 
 <dl>
-<dt>Equivalence Relation</dt>
-<dl>A relation that is reflexive, symmetric, and transitive is called and <strong>equivalence relation</strong>.</dl>
+<dt>Equivalence Relation and Equivalence class</dt>
+<dd>A relation that is reflexive, symmetric, and transitive is called and <strong>equivalence relation</strong>. The equivalence relation are represented by undirected graph which consits of a number of <em>clusters</em>; and within each cluster, each pair of nodes is connected by a line. Those <em>Clusters</em> are called <strong>equivalence classes</strong>. Normally equivalence class is denoted by <code>[a]</code>. Equivalence class can also be defined as <code>[a] = {b:(a,b) ∈ R}</code>, or <code>[a]={b: (b,a) ∈ R</code> (since R is symmetric). As shown in the figure below, there are three equivalence classes, one with four elements, one with three, and one with a single element.</dd>
+</dl>
+
+
+[[Figure 1-6]]
+
+
+<strong>Some problems and theorems on equivalence relation is to be done from the book</strong>
+
+
+<dl>
+<dt>Partial Order</dt>
+<dd>
+A relation that is <em>reflexive</em>, <em>anti-symmetric</em>, and <em>transitive</em> is acalled a <strong>partial order</strong>
+</dd>
+</dl>
+
+<dl>
+<dt>Total Order</dt>
+<dd>
+A partial order <code>R ⊆ A × A</code> is a <strong>total order</strong> if, for all <code>a, b ∈ R </code>, either <code>(a,b) ∈ R</code> or <code>(b,a) ∈ R</code>
+</dd>
+</dl>
+
+<dl>
+<dt>Path</dt>
+<dd>
+A path in a binary relation R is a sequence <code>(a<sub>1</sub>.....a<sub>n</sub>)</code> for some <code> n >= 1 </code> such that <code>(a<sub>i</sub>, a<sub>i+1</sub>) ∈ R for i = 1.....n-1</code>; this path is said to be from a<sub>1</sub> to a<sub>n></sub>. The <strong>length</strong> of that path is n. The path is called <strong>cycle</strong> if all the a<sub>i</sub>'s are distinct and <code>(a<sub>n</sub>, a<sub>1</sub>) ∈ R</code>
+</dd>
 </dl>
