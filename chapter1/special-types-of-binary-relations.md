@@ -23,3 +23,28 @@ Now, we put an small circle for each element in A. The circles are called nodes.
 
 
 ![Directed-Graph](http://imgur.com/qkZFt28.jpg?1 "Directed Graph")
+
+
+There is no any formal distinction between binary relations on set A and directed graphs with nodes from A. Directed graphs makes easier to abstract complex systems.
+
+An another example of directed graph can be shown on the following diagram, which is a less-than-or-equal-to relation ( <= ) defined on natural number.
+
+[[Figure 1-2]]
+
+<dl>
+<dt>Reflexive Relation</dt>
+<dd>A relation <code>R ⊆ A × A</code> is <strong>reflexive</strong> if <code>(a, a) ∈ R for each a ∈ A</code>. As we can guess, the directed graph of representing a reflexive relation has edges (or arrows) from a node to itself. The figure shown above represents a reflexive relation. (but the figure one does not)</dd>
+</dl>
+
+<dl>
+<dt>Symmetric Relation</dt>
+<dd>A relation <code>R ⊆ A × B</code> is <strong>symmetric</strong> if <code>(b, a) ∈ R whenever (a, b) ∈ R</code>. Again, the directed graph of representing a reflexive relation has edges (or arrows) from a node to another node in both direction. (See figure below). Representing in a Relation set, <code>R ⊆ A × A  =  {(a,b),(b,a),(a,c),(c,a),(c,d),(d,c)}</code> represent a symmetric relation for <code>A = {a,b,c,d}</code></dd>
+</dl>
+
+[[Figure 1-3]]
+
+A symmetric relation may also contain pairs of the form `(a,a)`, but when the symmetric relation is purely symmetric (containing only symmetric relation), then it is represented as undirected graph ,or simply a graph which is drawn without arrowheads. To get some intution, we can assume the cancellation of arrowhead since they are in both direction
+
+[[Figure 1-4]]
+
+A relation R is <b>anti-symmetric</b> if ....
