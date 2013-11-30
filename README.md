@@ -9,8 +9,8 @@ Work in Progress
 - [x] Set
 - [x] Relation and Function
 - [x] Special Types of Binary Relations 
-- [x] Finite and Infinite Sets (half)
-- [ ] Three Fundamental Proof Techniques
+- [x] Finite and Infinite Sets 
+- [x] Three Fundamental Proof Techniques (half)
 - [ ] Closures and Algorithms
 - [ ] Alphabets and Languages
 - [ ] Finite Representation of Languages
