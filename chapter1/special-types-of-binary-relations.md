@@ -43,8 +43,17 @@ An another example of directed graph can be shown on the following diagram, whic
 
 [[Figure 1-3]]
 
-A symmetric relation may also contain pairs of the form `(a,a)`, but when the symmetric relation is purely symmetric (containing only symmetric relation), then it is represented as undirected graph ,or simply a graph which is drawn without arrowheads. To get some intution, we can assume the cancellation of arrowhead since they are in both direction
+A symmetric relation may also contain pairs of the form `(a, a)`, but when the symmetric relation is purely symmetric (containing only symmetric relation), then it is represented as undirected graph ,or simply a graph which is drawn without arrowheads. To get some intution, we can assume the cancellation of arrowhead since they are in both direction
 
 [[Figure 1-4]]
 
-A relation R is <b>anti-symmetric</b> if ....
+A relation R is <b>anti-symmetric</b> if if whenever `(a, b) ∈ R` and `a` and `b` are distinct, then `(b, a) ∉ R`.
+
+A binary relation R is **transitive** if whenever `(a, b) ∈ R` and `(b, c) ∈ R` , then `(a, c) ∈ R`. The directed graph below will give the intution.
+
+[[Figure 1-5]]
+
+<dl>
+<dt>Equivalence Relation</dt>
+<dl>A relation that is reflexive, symmetric, and transitive is called and <strong>equivalence relation</strong>.</dl>
+</dl>
