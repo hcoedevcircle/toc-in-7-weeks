@@ -25,6 +25,9 @@ for i = 1,...,n do:
 
 The above algorithm is pretty straightforward. When we follow these steps, there is no doubt that we will have a complete set of R* at the end. 
 
-But the important indication that we need here is an indication of *time*. When does the algorithm terminate? This largely depend upon the inputs. It's reasonable to expect that the algorithm will take more time on larger input relations, so as said, the *time* it takes depends upon how large is input. For example, if a function is defined as `f: N -> N` 
+But the important indication that we need here is an indication of *time*. When does the algorithm terminate? This largely depend upon the inputs. It's reasonable to expect that the algorithm will take more time on larger input relations, so as said, the *time* it takes depends upon how large is input. For example, if a function is defined as `f: N -> N`  such that, for each `n >= 1`, if the algorithm is presented with a binary relation `R ⊆ A × A` with `|A| = n`, it will terminate after at most `f(n)` steps. As is typical in the analysis of algorithms, we shall allow `f(n)` to be a rough overestimate, as long as it has the correct **rate of growth**. 
 
-.....
+
+### The Growth of Funciton
+
+Consider 
