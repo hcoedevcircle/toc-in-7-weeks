@@ -30,4 +30,10 @@ But the important indication that we need here is an indication of *time*. When 
 
 ### The Growth of Funciton
 
-Consider 
+Consider three functions from the set of natural numbers to itself:
+
+`f(n) = 1,000,000 n`
+<code>g(n) = 10 n<sup>3</sup></code>
+<code>h(n) = 2<sup>n</sup></code>
+
+Now, Let us question ouerselves, which function is the largest? For some initial values of `n`, we have `f(n) > g(n) > h(n)`. But when the n is large enough, we can see that, `f(n) < g(n) < h(n)`. In this topic, we will develop the concept necessary to rank those functions.
