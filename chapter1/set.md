@@ -75,10 +75,10 @@ The collection of all subjects of set A is called `power set`. And is denoted by
 
 ### Partition
 
-A partition of a non empty set A is a subset C of 2<sup>A</sup> such that Ø is not an element of C and each element of A is in one and only one set in C. To summarize,
-- each element of C is nonempty
-- distinct members of C are disjoint.
-- ∪ C = A
+A partition of a non empty set A is a subset π of 2<sup>A</sup> such that Ø is not an element of π and each element of A is in one and only one set in π. To summarize,
+- each element of π is nonempty
+- distinct members of π are disjoint.
+- ∪ π = A
 
 
 
